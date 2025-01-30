@@ -4,7 +4,7 @@ Submitted by: **Frederick DeBiase**
 
 This web app: **Flashcards for boating termonology with related images**
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
