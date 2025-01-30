@@ -24,12 +24,16 @@ const App = () => {
 
   const nextCard = () => {
     setIsFlipped(false)
-    setstate((prevState) => (prevState + 1) % flashcards.length)
+    setTimeout(() => {
+      setstate((prevState) => (prevState + 1) % flashcards.length)
+    }, 300);
   }
 
   const prevCard = () => {
-    setstate((prevState) => (prevState - 1 + flashcards.length) % flashcards.length)
     setIsFlipped(false)
+    setTimeout(() => {
+      setstate((prevState) => (prevState - 1 + flashcards.length) % flashcards.length)
+    }, 300); 
   }
 
   return (
