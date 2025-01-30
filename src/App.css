@@ -9,8 +9,19 @@ body {
   background-color: hsl(215, 58%, 50%);
 }
 
+p {
+  font-size: 1.2em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .flashcard-container {
   perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flashcard {
@@ -26,7 +37,7 @@ body {
   text-align: center;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 0.8s;
+  transition: transform 1s;
 }
 
 .flashcard.flipped {
