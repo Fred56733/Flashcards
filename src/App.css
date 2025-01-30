@@ -7,18 +7,28 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: ;
+  background-image: url('public/beachbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  font-size: 3em;
-  color: #fff;
+  font: time new roman;
+  font-size: 4em;
+  color: #f4f4f4;
   text-align: center;
+  text-shadow: 
+    -1.5px -1.5px 0 #464646,  
+    1.5px -1.5px 0 #464646,
+    -1.5px 1.5px 0 #464646,
+    1.5px 1.5px 0 #464646;
 }
 
 p {
-  font-size: 1.2em;
-  color: #fff;
+  font: times new roman;
+  font-size: 1.5em;
+  color: rgb(46, 46, 46);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,10 +42,10 @@ p {
 }
 
 .flashcard {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 25px;
-  border-color: black;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: rgb(46, 46, 46);
+  box-shadow: 0 4px 8px rgba(46, 46, 46, 0.1);
   width: 90%; 
   max-width: 500px; 
   height: 30vh; 
@@ -53,15 +63,15 @@ p {
 }
 
 .flashcard.easy {
-  background-color: hsl(134, 71%, 58%) !important;
+  background-color: hsla(116, 100%, 50%, 0.16) !important;
 }
 
 .flashcard.medium {
-  background-color: #efd068 !important;
+  background-color: #d9ff0039 !important;
 }
 
 .flashcard.hard {
-  background-color: hsl(355, 84%, 70%) !important;
+  background-color: hsla(355, 100%, 50%, 0.186) !important;
 }
 
 .flashcard h2 {
@@ -71,7 +81,7 @@ p {
 
 .flashcard p {
   font-size: 1.5em;
-  color: #333;
+  color: hwb(0 18% 82%);
   display: flex;
   justify-content: center;
   align-items: center;
