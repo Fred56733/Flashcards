@@ -1,4 +1,6 @@
-const flashcards = [
+
+const flashcardsData = [
+  { question: 'Start!', answer: 'Welcome to Boating 101!', Image: 'src/assets/Wake.jpg', difficulty: 'starter'},
   { question: 'What is the name of the front of a boat?', answer: 'Bow', Image: 'src/assets/Bow.jpg', difficulty: 'easy'},
   { question: 'What is the name of the back of the boat?', answer: 'Stern', Image: 'src/assets/Stern.jpg', difficulty: 'easy'},
   { question: 'What is the name of the left side of a boat?', answer: 'Port', Image: 'src/assets/Port.jpg', difficulty: 'easy'},
@@ -9,6 +11,6 @@ const flashcards = [
   { question: 'What is the name of the wave a boat produces?', answer: 'Wake', Image: 'src/assets/Wake.JPG', difficulty: 'medium'},
   { question: 'What is the name of the location where the steering wheel of a boat is?', answer: 'Helm', Image: 'src/assets/Helm.jpg', difficulty: 'hard'},
   { question: 'What is the width of a boat called?', answer: 'Beam', Image: 'src/assets/Beam.jpg', difficulty: 'hard'},
-]
+];
 
-export default flashcards
+export default flashcardsData;
