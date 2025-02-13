@@ -33,10 +33,12 @@ const guessAnswer = (flashcards, guess) => {
 const shuffleCard = (setIsFlipped, setstate, flashcards, setFlashcards) => {
     setIsFlipped(false)
     setTimeout(() => {
-        const shuffledFlashcards = flashcards.sort(() => Math.random() - 0.5)
+        const starterCard = flashcards[0];
+        const otherCards = flashcards.slice(1);
+        const shuffledFlashcards = [starterCard, ...otherCards.sort(() => Math.random() - 0.5)];
         setFlashcards(shuffledFlashcards);
-        setstate(0)
-    })
+        setstate(0);
+    }, 300);
 };
 
 export { cardClicked, nextCard, prevCard, guessAnswer, shuffleCard };

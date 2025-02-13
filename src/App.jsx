@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Boating 101 Flashcard's</h1>
-      <p>Total Cards: {flashcards.length}</p>
+      <p>Total Cards: {flashcards.length - 1}</p>
       <div className="flashcard-container">
       <div className={`flashcard ${isFlipped ? 'flipped' : ''} ${flashcards[state].difficulty}`} onClick={() => cardClicked(isFlipped, setIsFlipped)}>
           <div className="flashcard-front">
