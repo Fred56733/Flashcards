@@ -20,12 +20,14 @@ const prevCard = (setIsFlipped, setstate, flashcards) => {
 };
 
 // Checks if the answer is correct
-const guessAnswer = (flashcards, guess) => {
-    if (flashcards.answer === guess) {
+const guessAnswer = (flashcards, state, guess) => {
+    if (flashcards[state].answer.toLowerCase() === guess.toLowerCase()) {
         alert('Correct!')
+        return true;
     }
     else {
         alert('Incorrect!')
+        return false;
     }
 };
 

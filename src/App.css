@@ -118,6 +118,7 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  height: 45px;
   width: 100%;
 }
 
@@ -129,6 +130,37 @@ p {
   border-radius: 25px;
   margin: 0 5px;
   cursor: pointer;
+  font-size: 1em;
+}
+
+.guess-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.guess-container input {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 0 5px; 
+  height: 100%;
+  font-size: 1em;
+}
+
+.guess-container button {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 0 5px;
+  cursor: pointer;
+  height: 40px; 
+  font-size: 1em;
 }
 
 @media (max-width: 600px) {
