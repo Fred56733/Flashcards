@@ -1,4 +1,4 @@
-# Web Development Project 2 - *Boating 101 Flashcards*
+# Web Development Project 3 - *Boating 101 Flashcards*
 
 Submitted by: **Frederick DeBiase**
 
@@ -15,18 +15,25 @@ The following **required** functionality is completed:
 - [x] **A list of card pairs is created**
 - [x] **Clicking on the card shows the corresponding component of the information pair**
 - [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
 
 The following **optional** features are implemented:
 
-- [x] Cards contains images in addition to or in place of text
-- [x] Cards have different visual styles such as color based on their category
-  - [x] *visual style implemented*
+- [x] **Cards contains images in addition to or in place of text**
+- [x] **Cards have different visual styles such as color based on their category**
+- [x] **A shuffle button can be used to randomize the order of the cards**
+- [x] **A user’s answer may be counted as correct even when it is slightly different from the target answer**
+- [x] **A counter displays the user’s current and longest streak of correct responses**
+- [x] **A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards**
 
 ## Video Walkthrough
 
 Here's a walkthrough of the applications features:
 
-<img src='https://i.imgur.com/6FD11BU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Project 3 Demo](https://imgur.com/Jrxic2R.gif)
+
+Link: https://imgur.com/Jrxic2R.gif
 
 ## Notes
 
