@@ -33,7 +33,7 @@ Here's a walkthrough of the applications features:
 
 ![Project 3 Demo](https://i.imgur.com/dAOrJYr.gif)
 
-Link: https://imgur.com/Jrxic2R.gif
+Link: https://i.imgur.com/dAOrJYr.gif
 
 ## Notes
 
